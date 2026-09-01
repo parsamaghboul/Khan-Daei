@@ -1,7 +1,8 @@
-window.addEventListener("load", function () {
+window.onload = function () {
     alert("⚠️ Important Notice: Welcome to the “Khan Daee Restaurant” website. Please note that this website is solely a web design and development portfolio project and does not belong to a real restaurant.");
+
     alert("All information, images, trust badges, and other elements displayed on this website are for demonstration purposes only and are not real. Please take this notice into consideration before relying on or using any information provided on this website. Any use of the information or content on this website is at the user's own discretion and responsibility.");
-});
+};
     
 let topbtn = document.getElementById("topbtn");
 topbtn.addEventListener("click", function () {
